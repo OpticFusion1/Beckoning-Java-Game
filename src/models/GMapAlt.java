@@ -117,7 +117,7 @@ public class GMapAlt {
 				// N7: Staircase (Top / Blocked)
 				new GNode("Top of the Throat",
 						"You are at the topmost reach of the throat. A short hallway with metal walls converges with"
-						+ " flesh here, scarring it at the connections. At the end of the hallway is a sturdy iron door"
+						+ " the flesh here, scarring it at the connections. At the end of the hallway is a sturdy iron door"
 						+ " with seven distinct divots in it.",
 						new GChoice[] {
 								new GChoice("Try the door", 8) {
@@ -228,7 +228,7 @@ public class GMapAlt {
 				// N16: Cabins (Main)
 				new GNode("The Cabins",
 						"These certainly must be the cabins of the ship. There's a grid of bunk-beds that surround"
-						+ " the perimeter of the room, leaving the center surprisingly barren. Dust in seems to linger"
+						+ " the perimeter of the room, leaving the center surprisingly barren. Dust seems to linger"
 						+ " in the air as if suspended by an unearthly force, creating an unsettling atmosphere. There"
 						+ " are many different areas to potentially inspect.",
 						new GChoice[] {
@@ -269,8 +269,8 @@ public class GMapAlt {
 						"You slip yourself through the crack in the wall and begin edging your way through the tunnel."
 						+ " Before long, you find yourself ducking your head and crawling on your knees as the space rapidly"
 						+ " encloses. The walls of the tunnel begin to grow damp and sticky, but you eventually you emerge"
-						+ " on the other side through a bookcase after what felt like a tiresome five minutes of effort."
-						+ " Upon looking back, you can see the cabins right on the other side of the wall...",
+						+ " on the other side through a bookcase after a tiresome amount of effort. Upon looking back, you can see"
+						+ " the cabins right on the other side of the wall...",
 						new GChoice[] {
 								new GChoice("Continue", 23)
 								}),
@@ -320,7 +320,7 @@ public class GMapAlt {
 				
 				// N22: Cabins (Back-right)
 				new GNode("Curious Corner",
-						"Looking in and under all the beds in this corner, you can't find anything useful. The only"
+						"Searching all the beds in this corner, you can't find anything useful. The only"
 						+ " thing notable is a circular indent in the floor under one of the beds, but even that seems"
 						+ " useless now.",
 						new GChoice[] {
@@ -552,7 +552,7 @@ public class GMapAlt {
 				
 				// N38: Cafeteria (Kitchen / Fridge)
 				new GNode("Empty Fridge",
-						"The fridge is empty, countering your expectations. There's some sort of black goo in one of the"
+						"The fridge is completely empty, defying your expectations. There's some sort of black goo in one of the"
 						+ " corners. It trails out onto the floor, leading to the cooking pot you saw earlier.",
 						new GChoice[] {
 								new GChoice("Go back", 36)
@@ -563,8 +563,8 @@ public class GMapAlt {
 						"As you observed before, most of the rats around the room are missing body parts. On closer"
 						+ " inspection, some of the incisions seem to be from a knife and others clearly appear to be"
 						+ " bite marks. There's one particularly large pile of the little corpses in the corner that you"
-						+ " estimate to be about one hundred rats tall at least. While you're not certain if there's"
-						+ " something under the pile or not, you can't bring yourself to go sorting through so much dead"
+						+ " estimate to be about one hundred rats tall at least. While there could be"
+						+ " something useful under the pile, you can't bring yourself to go sorting through so much dead"
 						+ " meat.",
 						new GChoice[] {
 								new GChoice("Go back", 36)
@@ -590,8 +590,8 @@ public class GMapAlt {
 				new GNode("A Metal Eye",
 						"You find some old bits and pieces of metal on some of the shelves. It's mostly unimportant junk"
 						+ " like rusted screws and snipped padlocks, but you finally discover a particularly round and"
-						+ " weighty shape of metal on one of the last shelves you check. On a closer look, the spherical"
-						+ " piece has a engraving of an iris and pupil on one side. You decide to pocket the weird metal eye.",
+						+ " weighty piece of metal on one of the last shelves you check. On a closer look, the spherical"
+						+ " shape has a engraving of an iris and pupil on one side. You decide to pocket the weird metal eye.",
 						new GChoice[] {
 								new GChoice("Continue", 40) {
 									@Override
@@ -746,7 +746,7 @@ public class GMapAlt {
 						"Looking closely at the heart, its exterior seems to be composed of a translucent organic material."
 						+ " You can see particles of cosmic light floating around inside, but something else catches your"
 						+ " attention. You can see what looks like an eyeball, but veiny and with a distinctly blue iris,"
-						+ " hovering just beneath the surface. Without a thought you plunge your hand in and grab it for"
+						+ " hovering just beneath the surface. Without a thought, you plunge your hand into the heart and grab it for"
 						+ " yourself, pocketing it. When you look back at the heart, there's eerily no mark on the surface"
 						+ " where you reached in.",
 						new GChoice[] {
@@ -773,7 +773,7 @@ public class GMapAlt {
 				// N54: Sturdy Iron Door to Outside (Open)
 				new GNode("Unlocked...",
 						"You place the eyes you collected in the seven divots in the door. As you place the last one, the"
-						+ " door begins to creak, and then the eyes in their divots begin to spin around its center. After"
+						+ " door begins to creak, and then the eyes in their divots begin to spin around the center. After"
 						+ " a full revolution the spinning stops, and the entrance slowly opens... ",
 						new GChoice[] {
 								new GChoice("Step outside", 55)
@@ -782,10 +782,10 @@ public class GMapAlt {
 				// N55: True Victory
 				new GNode("A Beautiful Horizon: TRUE VICTORY",
 						"Stepping outside, you feel a cool breeze cross over you. The lovely white sky and pink sea you glimpsed"
-						+ " at earlier stretch on as far as you can see and form an oddly beautiful horizon. It seems your"
+						+ " earlier stretch on as far as you can see and form a mesmerizing horizon. It seems your"
 						+ " true purpose here was to free that thing down below. Now that the door you came through has"
-						+ " closed and locked for good, it appears things didn't go according to plan. For all you care, that"
-						+ " monster can rot in this ship for eternity. In the end, you may unfortunately be here for as long."
+						+ " closed and locked for good, it appears that the plan has failed. For all you care, that"
+						+ " monster can rot in this ship for eternity. In the end, you may unfortunately be here for just as long."
 						+ " You were tricked, beckoned here against your will, and remaining here atop this ship is all the"
 						+ " solace that is offered to you now. You hope, in time, that you will find peace in that.",
 						new GChoice[] {
