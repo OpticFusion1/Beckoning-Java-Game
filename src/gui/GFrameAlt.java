@@ -127,7 +127,7 @@ public class GFrameAlt extends JFrame {
 		this.add(this.descPanel);
 		
 		// Set bound/properties of restartButton and add to frame
-		this.restartButton.setBounds(15, 20, 70, 30);
+		this.restartButton.setBounds(10, 20, 80, 30);
 		this.restartButton.setBackground(new Color(255, 128, 128));
 		this.restartButton.addActionListener(new ActionListener() { 
 			public void actionPerformed(ActionEvent e) { 
